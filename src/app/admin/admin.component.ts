@@ -4,6 +4,7 @@ import { ProductComponent } from './components/products/product.component';
 import { OrderComponent } from './components/orders/order.component';
 import { CustomerComponent } from './components/customers/customer.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-admin',
@@ -12,7 +13,8 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     ProductComponent,
     OrderComponent,
     CustomerComponent,
-    DashboardComponent],
+    DashboardComponent,
+    RouterOutlet],
   templateUrl: './admin.component.html',
   styleUrl: './admin.component.scss'
 })
